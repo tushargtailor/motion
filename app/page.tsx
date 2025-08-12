@@ -1,10 +1,10 @@
-import { ButtonComp } from "./components/buttonComp";
-import { PageMotionLayout } from "./components/motion-layout/page";
+
+import {ContentLayout} from "./components/content";
 
 export default function Home() {
   return (
     <div className="">
-      <PageMotionLayout />
+      <ContentLayout />
     </div>
   );
 }
